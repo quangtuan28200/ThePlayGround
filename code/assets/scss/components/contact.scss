@@ -1,0 +1,92 @@
+.contact{
+    margin-top: 18rem;
+    &-enjoy{
+        &__heading{
+            color: $text_color-bold;
+            font-weight: 600;
+            font-size: 3.8rem;
+            text-align: center;
+        }
+        &__text{
+            margin: 3rem 0;
+            color: $text_color-bold;
+            font-weight: 600;
+            font-size: 3rem;
+            text-align: center;
+
+            span{
+                color: $primary_color;
+            }
+        }
+        &__item{
+            img{
+                border-radius: 2rem;
+            }
+        }
+    }
+
+    &-social{
+        margin-top: 18rem;
+        &__heading{
+            color: $text_color-bold;
+            font-weight: 600;
+            font-size: 3rem;
+        }
+
+        &__form{
+            position: relative;
+            input{
+                padding: 2rem;
+                border: none;
+                outline: none;
+                background-color: #eee;
+                border-radius: 4px;
+                width: 100%;
+                font-size: 1.6rem;
+                border-bottom: 5px solid transparent;
+                transition: .2s;
+
+                &:focus,
+                &:not(:placeholder-shown) {
+                    border-bottom: 5px solid $primary_color;
+                    background-color: white;
+                    box-shadow: 0 0 20px #ddd;
+                    ~ label{
+                        left: 0;
+                        top: -28%;
+                        color: $text_color-bold;
+                    }
+                }
+            }
+            label{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 21px;
+                transition: .2s;
+                color: #ccc;
+                user-select: none;
+                pointer-events: none;
+                transition: .2s;
+            }
+        }
+
+        &__list{
+            display: flex;
+            margin-top: 2rem;
+        }
+        &__item{
+            margin-left: 1rem;
+            font-size: 2.6rem;
+        }
+        &__link{
+            padding: 1rem 2rem;
+            color: $text_color-bold;
+            transition: .2s;
+    
+            &:hover{            
+                color: $primary_color;
+            }
+        }
+    }
+}

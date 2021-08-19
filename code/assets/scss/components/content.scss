@@ -1,0 +1,123 @@
+.content{
+    .row{
+        margin: 0 -5rem;
+    }
+
+    .col{
+        padding: 0 5rem;
+    }
+    
+    &__item{
+        &:nth-of-type(2n){    
+            flex-direction: row-reverse;
+        }
+        padding-top: 18rem;
+    }
+
+    &__img{
+        display: flex;
+        align-items: center;
+        img{
+            border-radius: 2rem;
+        }
+    }
+
+    &__heading{
+        text-align: left;
+    }
+
+    &__descrip{
+        margin: 3rem 0;
+    }
+
+    &-enviroment{
+        &__item{
+            position: relative;
+            margin-bottom: 4rem;
+            color: $text_color-bold;
+            font-weight: 600;
+            &::after{
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 0;
+                height: 2px;
+                width: 100%;
+                background-color: $text_color-bold;
+            }
+        }
+    }
+
+    &-park{
+        &__item{
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+
+            &:nth-child(1) span{
+                background-color: #ff6adf;
+            }
+            &:nth-child(2) span{
+                background-color: #92fa3c;
+            }
+            &:nth-child(3) span{
+                background-color: #1ec0f4;
+            }
+            &:nth-child(4) span{
+                background-color: #ff899c;
+            }
+        }
+        &__dot{
+            display: block;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #6cc7d2;
+            margin-right: 16px;
+        }
+        &__text{
+            color: $text_color-bold;
+            font-weight: 600;
+        }
+    }
+
+    &-why{
+        .row{
+            margin: 0 -2.5rem;
+        }
+    
+        .col{
+            padding: 0 2.5rem;
+        }
+        &__item{
+            margin-bottom: 3rem;
+            i{
+                font-size: 2.2rem;
+                padding: 1rem;
+                border-radius: 1rem;
+            }
+            &:nth-child(1) i{
+                background-color: #e4fbfe;
+                color: #6cc7d2;
+            }
+            &:nth-child(2) i{
+                background-color: #fef6e5;
+                color: #f6c04b;
+            }
+            &:nth-child(3) i{
+                background-color: #f9eefc;
+                color: #ead6f6;
+            }
+            &:nth-child(4) i{
+                background-color: #ebfbee;
+                color: #a9dab3;
+            }
+        }
+
+        &__heading{
+            color: $text_color-bold;
+            font-weight: 600;
+            margin: 2rem 0;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+
+//base html
+html{
+    font-size: 62.5%; //1rem = 10px
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: $text_color;
+    line-height: 1.4;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: $text_color;
+    display: block;
+}
+
+.btn{
+    padding: 1rem 2.8rem;
+    border: 1px solid $text_color-bold;
+    border-radius: 100px;
+    color: $text_color-bold;
+    transition: .2s;
+    display: inline-block;
+    font-weight: 400;
+
+    &-primary{
+        background-image: linear-gradient($primary_color-light, $primary_color-dark);
+        padding: 1.1rem 2.9rem;
+        border: none;
+    }
+
+    &:hover{
+        transform: translateY(-3px);
+    }
+}
+
+.logo{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: $text_color-bold;
+    & span{
+        color: $primary_color;
+    }
+}
+
+.section__heading{
+    color: $text_color-bold;
+    font-weight: 600;
+    font-size: 3.8rem;
+    text-align: center;
+}

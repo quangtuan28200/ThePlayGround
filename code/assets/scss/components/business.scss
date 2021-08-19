@@ -1,0 +1,22 @@
+.business{
+    margin-top: 18rem;
+    &__heading{
+        color: $text_color-bold;
+        font-weight: 600;
+        font-size: 3.8rem;
+        text-align: center;
+    }
+
+    hr{
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+        width: 60%;
+    }
+    
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD to HTML,CSS</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header> 
+            <div class="container">
+                <div class="header__wr">
+                    <a href="index.html" class="logo"><span>Play</span>ground</a>
+                    <div class="header__nav">
+                        <ul class="header__nav--list">
+                            <li class="header__nav--item">
+                                <a href="#" class="header__nav--link">
+                                    Events
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__nav--list2">
+                                    <li class="header__nav--item2">
+                                        <a href="#" class="header__nav--link2">Event 1</a>
+                                    </li>
+                                    <li class="header__nav--item2">
+                                        <a href="#" class="header__nav--link2">Event 2</a>
+                                    </li>
+                                    <li class="header__nav--item2">
+                                        <a href="#" class="header__nav--link2">Event 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav--item">
+                                <a href="#" class="header__nav--link">Pricing</a>
+                            </li>
+                            <li class="header__nav--item">
+                                <a href="#" class="header__nav--link">Blog</a>
+                            </li>
+                        </ul>
+    
+                        <a href="#" class="btn">Log in</a>
+                    </div>    
+                    <div class="header__nav-rsp">
+                        <div class="nav-rsp__icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <ul class="nav-rsp__list">
+                            <li class="nav-rsp__item">
+                                <a href="#" class="nav-rsp__link">Events</a>
+                            </li>
+                            <li class="nav-rsp__item">
+                                <a href="#" class="nav-rsp__link">Pricing</a>
+                            </li>
+                            <li class="nav-rsp__item">
+                                <a href="#" class="nav-rsp__link">Blog</a>
+                            </li>
+                            <li class="nav-rsp__item">
+                                <a href="#" class="nav-rsp__link">Login</a>
+                            </li>
+                        </ul>
+                    </div>         
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="container">
+                <div class="banner__wr">
+                    <h1 class="banner__heading">The Kids playground</h1>
+                    <p class="banner__descrip">The Playground, designed by nonprofit organization to be accessible for all children</p>
+                    <div class="banner__btn">
+                        <a href="#" class="btn">Explore</a>
+                        <a href="#" class="btn btn-primary">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="container">
+                <div class="category__wr">
+                    <ul class="category__list row">
+                        <li class="category__item col l-3 m-6 s-12">
+                            <div class="category-card">
+                                <img src="./assets/imgs/d9509a983a2f9ffc5d6ddbc212843657.jpg" class="category-card__img"></img>
+                                <h3 class="category-card__heading">Safe Rides</h3>
+                                <a href="#" class="category-card__link">CC Certified <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </li>
+                        <li class="category__item col l-3 m-6 s-12">
+                            <div class="category-card">
+                                <img src="./assets/imgs/food.webp" class="category-card__img"></img>
+                                <h3 class="category-card__heading">Delicious Foods</h3>
+                                <a href="#" class="category-card__link">GluTan Free <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </li>
+                        <li class="category__item col l-3 m-6 s-12">
+                            <div class="category-card">
+                                <img src="./assets/imgs/entertainment.webp" class="category-card__img"></img>
+                                <h3 class="category-card__heading">Entertainment</h3>
+                                <a href="#" class="category-card__link">Suitable for kids <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </li>
+                        <li class="category__item col l-3 m-6 s-12">
+                            <div class="category-card">
+                                <img src="./assets/imgs/ice.webp" class="category-card__img"></img>
+                                <h3 class="category-card__heading">Ice-Cream</h3>
+                                <a href="#" class="category-card__link">No Synthetic <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container">
+                <div class="content__wr">
+                    <ul class="content__list">
+                        <li class="content__item row">
+                            <div class="content__img col l-6 m-12">
+                                <img src="./assets/imgs/slide.webp" alt="img">
+                            </div>
+                            <div class="content__wr col l-6 m-12">
+                                <h3 class="section__heading content__heading">The outdoor enviroment is age-appropriate to play</h3>
+                                <p class="content__descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ullam molestiae quam illo nisi vitae sit eaque.</p>
+                                <div class="content-enviroment">
+                                    <ul class="content-enviroment__list">
+                                        <li class="content-enviroment__item">
+                                            <p>The Playground has been designed to feature a first responders theme</p>
+                                        </li>
+                                        <li class="content-enviroment__item">
+                                            <p>Fully-inclusive playground offers rich experiences</p>
+                                        </li>
+                                        <li class="content-enviroment__item">
+                                            <p>The project is set to open Aug 2021</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary">Visit Now</a>
+                            </div>
+                        </li>
+                        <li class="content__item row">
+                            <div class="content__img col l-6 m-12">
+                                <img src="./assets/imgs/aquapark.jpg" alt="img">
+                            </div>
+                            <div class="content__wr col l-6 m-12">
+                                <h3 class="section__heading content__heading">The best Aquapark for kids</h3>
+                                <p class="content__descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex excepturi molestiae sit, magni dolore. Rerum velit recusandae laborum delectus reiciendis odio quae officiis saepe, alias ab, nam molestiae vero?</p>
+                                <div class="content-park">
+                                    <ul class="content-park__list">
+                                        <li class="content-park__item">
+                                            <span class="content-park__dot"></span>
+                                            <p class="content-park__text">The Fire Truck with Free Food</p>
+                                        </li>
+                                        <li class="content-park__item">
+                                            <span class="content-park__dot"></span>
+                                            <p class="content-park__text">The Police Car with Costume</p>
+                                        </li>
+                                        <li class="content-park__item">
+                                            <span class="content-park__dot"></span>
+                                            <p class="content-park__text">The Roller Coaster with Safety</p>
+                                        </li>
+                                        <li class="content-park__item">
+                                            <span class="content-park__dot"></span>
+                                            <p class="content-park__text">The Best Entertaing Events</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="content__item row">
+                            <div class="content__img col l-6 m-12">
+                                <img src="./assets/imgs/catsle.jpg" alt="img">
+                            </div>
+                            <div class="content__wr col l-6 m-12">
+                                <h3 class="section__heading content__heading">Why we are the best</h3>
+                                <p class="content__descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione corporis fugit nemo hic facilis ipsa culpa libero alias nulla! Exercitationem deleniti nihil deserunt et harum, fuga asperiores? Odio, quidem.</p>
+                                <div class="content-why">
+                                    <ul class="content-why__list row">
+                                        <li class="content-why__item col l-6 s-12">
+                                            <div class="content-why__icon">
+                                                <i class="fas fa-coins"></i>
+                                            </div>
+                                            <div class="content-why__detail">
+                                                <h3 class="content-why__heading">Non Profitable Organization</h3>
+                                                <p class="content-why__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                            </div>
+                                        </li>
+                                        <li class="content-why__item col l-6 s-12">
+                                            <div class="content-why__icon">
+                                                <i class="fas fa-handshake"></i>
+                                            </div>   
+                                            <div class="content-why__detail">
+                                                <h3 class="content-why__heading">Customer Support</h3>
+                                                <p class="content-why__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                            </div>                          
+                                        </li>
+                                        <li class="content-why__item col l-6 s-12">
+                                            <div class="content-why__icon">
+                                                <i class="fas fa-user-shield"></i>
+                                            </div>
+                                            <div class="content-why__detail">
+                                                <h3 class="content-why__heading">Hight Safety & Security</h3>
+                                                <p class="content-why__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                            </div>
+                                        </li>
+                                        <li class="content-why__item col l-6 s-12">
+                                            <div class="content-why__icon">
+                                                <i class="fas fa-pencil-ruler"></i>
+                                            </div>
+                                            <div class="content-why__detail">
+                                                <h3 class="content-why__heading">Well Designed and decorated</h3>
+                                                <p class="content-why__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="business">
+            <div class="container">
+                <h3 class="section__heading">Our business partners</h3>
+                <hr>
+                <ul class="business__list">
+                    <li class="business__item">
+                        <img src="./assets/imgs/amazon.png" alt="img">
+                    </li>
+                    <li class="business__item">
+                        <img src="./assets/imgs/logo-netflix.png" alt="img">             
+                    </li>
+                    <li class="business__item">
+                        <img src="./assets/imgs/logo-newyork.png" alt="img">
+                    </li>
+                    <li class="business__item">
+                        <img src="./assets/imgs/logo-stripe.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact-enjoy">
+                    <h3 class="section__heading">For kids who enjoy themselves</h3>
+                    <p class="contact-enjoy__text">Connect with us <span>@Playgroud</span> </p>
+                    <ul class="contact-enjoy__list row">
+                        <li class="contact-enjoy__item col l-3 m-6 s-12">
+                            <img src="./assets/imgs/dieu.webp" alt="img">
+                        </li>
+                        <li class="contact-enjoy__item col l-3 m-6 s-12">
+                            <img src="./assets/imgs/study.webp" alt="img">
+                        </li>
+                        <li class="contact-enjoy__item col l-3 m-6 s-12">
+                            <img src="./assets/imgs/swing.webp" alt="img">
+                        </li>
+                        <li class="contact-enjoy__item col l-3 m-6 s-12">
+                            <img src="./assets/imgs/team.webp" alt="img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-social row">
+                    <h3 class="contact-social__heading col l-6 m-12">Subscribe to our newsletter to get future offers</h3>
+                    <div class="contact-social__detail col l-6 m-12">
+                        <form class="contact-social__form" action="">
+                            <div class="form__group">
+                                <input id="email" type="email" class="form__input" name="email" placeholder=" " autocomplete="off">
+                                <label class="form__label" for="email">Enter your email</label>
+                            </div>
+                        </form>
+                        <ul class="contact-social__list">
+                            <li class="contact-social__item">
+                                <a class="contact-social__link" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="contact-social__item">
+                                <a class="contact-social__link" href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="contact-social__item">
+                                <a class="contact-social__link" href="#">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li class="contact-social__item">
+                                <a class="contact-social__link" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="contact-social__item">
+                                <a class="contact-social__link" href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <hr>
+                <ul class="footer__list row">
+                    <li class="footer__item col l-3 m-4">
+                        <a href="index.html" class="logo"><span>Play</span>ground</a>
+                    </li>
+                    <li class="footer__item col l-3 m-4">
+                        <a href="#" class="footer__item-detail">Events for Kids</a>
+                        <a href="#" class="footer__item-detail">Events for parents</a>
+                        <a href="#" class="footer__item-detail">Events for Guests</a>
+                        <a href="#" class="footer__item-detail">Game & Gifts</a>
+                    </li>
+                    <li class="footer__item col l-3 m-4">
+                        <a href="#" class="footer__item-detail">Events</a>
+                        <a href="#" class="footer__item-detail">Who we are</a>
+                        <a href="#" class="footer__item-detail">Services</a>
+                        <a href="#" class="footer__item-detail">Features</a>
+                        <a href="#" class="footer__item-detail">Reviews</a>
+                    </li>
+                    <li class="footer__item col l-3 m-4">
+                        <a href="#" class="footer__item-detail">Careers</a>
+                        <a href="#" class="footer__item-detail">Press</a>
+                        <a href="#" class="footer__item-detail">Help</a>
+                    </li>
+                </ul>
+                <div class="footer__cpright">
+                    <hr>
+                    <div class="footer__cpright-content">
+                        <div class="footer__cpright-policy">
+                            <p>Privacy policy&emsp;Terms of services</p>
+                        </div>
+                        <div class="footer__cpright-text">
+                            <i class="far fa-copyright"></i>
+                            2021 Playground by Tuan KMA
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

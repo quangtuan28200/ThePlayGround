@@ -1,0 +1,177 @@
+@include responsive ('ipad-horizontal'){
+    .m-6{
+        flex: 0 0 50%;
+    }
+
+    .banner{
+        &__descrip{
+            padding: 0 20rem;
+        }
+    }
+
+    .category{
+        &-card{
+            margin-bottom: 2.8rem;
+        }
+    }
+
+    .content{
+        .row{
+            margin: 0 -2rem;
+        }
+        .col{
+            padding: 0 2rem;
+        }
+        &__img{
+            margin-bottom: 2rem;
+        }
+    }
+
+    .business{
+        &__list{
+            width: unset;
+        }
+    }
+
+    .contact{
+        &-enjoy__item{
+            margin-bottom: 2.8rem;
+        }
+    }
+}
+@include responsive ('ipad-vertical'){
+    .m-4{
+        flex: 0 0 33.3333%;
+    }
+
+    .m-12{
+        flex: 0 0 100%;
+    }
+
+    .banner{
+        &__descrip{
+            padding: 0 8rem;
+        }
+        &__heading{
+            font-size: 5rem;
+        }
+    }
+
+    .content{
+        &__img{
+            margin-bottom: 2rem;
+        }
+    }
+
+    .contact{  
+        &-social__heading{
+            margin-bottom: 4rem;
+        }
+    }
+
+    .footer{
+        &__item{
+            &:first-child{
+                display: none;
+            }
+        }
+    }
+}
+@include responsive ('ipad-mini'){
+    .row{
+        margin: 0 -8px;
+    }
+    .col{
+        padding: 0 8px;
+    }
+    .s-12{
+        flex: 0 0 100%;
+    }
+
+    .section__heading{
+        font-size: 2.8rem;
+    }
+
+    header{
+        .header{
+            &__nav{
+                display: none;
+            }
+            &__nav-rsp{
+                display: block;
+            }
+        }
+    }
+
+    .banner{
+        &__heading{
+            font-size: 4rem;
+        }
+
+        &__descrip{
+            padding: 0;
+            font-size: unset;
+        }
+    }
+
+    .content{
+        &-why__item{
+            display: flex;
+            align-items: center;
+        }
+        &-why__icon{
+            margin-right: 4rem;
+        }
+    }
+
+    .contact{
+        &-enjoy__text{
+            font-size: 2rem;
+        }
+        &-enjoy__item{
+            margin-bottom: 16px;
+        }
+        &-social__list{
+            justify-content: space-around;
+            margin-left: 0;
+        }
+    }
+
+    .business{
+        hr{
+            margin: 3rem auto;
+        }
+        &__list{
+            justify-content: unset;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-bottom: 2rem;
+        }
+    }
+
+    footer{
+        .footer{
+            &__cpright-content{
+                flex-direction: column;
+                align-items: center;
+            }
+            &__cpright-policy{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+@include responsive ('phone'){
+    html{
+        font-size: 45.5%;
+    }
+}
+@include responsive ('phone-mini'){
+    .banner{
+        &__heading{
+            font-size: 3rem;
+        }
+    }
+}
