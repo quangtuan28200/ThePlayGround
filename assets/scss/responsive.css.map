@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": ";ACCI,0BAA0B;AAEtB,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EDAxC,AAAA,IAAI,CAAA;IACA,IAAI,EAAE,OAAO;GAChB;;;ACAD,yBAAyB;AAIzB,0BAA0B;AAI1B,qBAAqB;AAIrB,oBAAoB",
+    "sources": [
+        "responsive.scss",
+        "_mixin.scss"
+    ],
+    "names": [],
+    "file": "responsive.css"
+}
